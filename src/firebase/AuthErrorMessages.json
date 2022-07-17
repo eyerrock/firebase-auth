@@ -1,0 +1,382 @@
+[
+  {
+    "code": "auth/admin-restricted-operation",
+    "message": "Operation is restricted to administrators only."
+  },
+  {
+    "code": "auth/argument-error",
+    "message": "An invalid argument was provided."
+  },
+  {
+    "code": "auth/app-not-authorized",
+    "message": "This application is not authorized."
+  },
+  {
+    "code": "auth/app-not-installed",
+    "message": "This application is not installed."
+  },
+  {
+    "code": "auth/captcha-check-failed",
+    "message": "The reCAPTCHA check failed."
+  },
+  {
+    "code": "auth/code-expired",
+    "message": "The code has expired."
+  },
+  {
+    "code": "auth/cordova-not-ready",
+    "message": "Cordova is not ready."
+  },
+  {
+    "code": "auth/cors-unsupported",
+    "message": "CORS is not supported."
+  },
+  {
+    "code": "auth/credential-already-in-use",
+    "message": "This credential is already in use."
+  },
+  {
+    "code": "auth/custom-token-mismatch",
+    "message": "Auth token mismatch."
+  },
+  {
+    "code": "auth/requires-recent-login",
+    "message": "This operation is sensitive and requires recent authentication."
+  },
+  {
+    "code": "auth/dependent-sdk-initialized-before-auth",
+    "message": "The dependent SDK must be initialized before the auth SDK."
+  },
+  {
+    "code": "auth/dynamic-link-not-activated",
+    "message": "The dynamic link has not been activated."
+  },
+  {
+    "code": "auth/email-change-needs-verification",
+    "message": "Email change needs verification."
+  },
+  {
+    "code": "auth/email-already-in-use",
+    "message": "The email is already in use by another account."
+  },
+  {
+    "code": "auth/emulator-config-failed",
+    "message": "Emulator config failed."
+  },
+  {
+    "code": "auth/expired-action-code",
+    "message": "Action code has expired."
+  },
+  {
+    "code": "auth/cancelled-popup-request",
+    "message": "The operation has been cancelled by the user."
+  },
+  {
+    "code": "auth/internal-error",
+    "message": "An internal error has occurred."
+  },
+  {
+    "code": "auth/invalid-api-key",
+    "message": "The API key is invalid."
+  },
+  {
+    "code": "auth/invalid-app-credential",
+    "message": "The application credential is invalid."
+  },
+  {
+    "code": "auth/invalid-app-id",
+    "message": "The application ID is invalid."
+  },
+  {
+    "code": "auth/invalid-user-token",
+    "message": "The user's credential is no longer valid. The user must sign in again."
+  },
+  {
+    "code": "auth/invalid-auth-event",
+    "message": "Invalid auth event."
+  },
+  {
+    "code": "auth/invalid-cert-hash",
+    "message": "The certificate hash is invalid."
+  },
+  {
+    "code": "auth/invalid-verification-code",
+    "message": "The verification code is invalid."
+  },
+  {
+    "code": "auth/invalid-continue-uri",
+    "message": "The continue URL provided is invalid."
+  },
+  {
+    "code": "auth/invalid-cordova-configuration",
+    "message": "The provided CORDOVA configuration is invalid."
+  },
+  {
+    "code": "auth/invalid-custom-token",
+    "message": "The custom token format is invalid."
+  },
+  {
+    "code": "auth/invalid-dynamic-link-domain",
+    "message": "The provided dynamic link domain is invalid."
+  },
+  {
+    "code": "auth/invalid-email",
+    "message": "The email address is invalid."
+  },
+  {
+    "code": "auth/invalid-emulator-scheme",
+    "message": "The provided emulator scheme is invalid."
+  },
+  {
+    "code": "auth/invalid-credential",
+    "message": "The provided credential is invalid."
+  },
+  {
+    "code": "auth/invalid-message-payload",
+    "message": "The provided message payload is invalid."
+  },
+  {
+    "code": "auth/invalid-multi-factor-session",
+    "message": "The provided multi-factor session is invalid."
+  },
+  {
+    "code": "auth/invalid-oauth-client-id",
+    "message": "The provided OAuth client ID is invalid."
+  },
+  {
+    "code": "auth/invalid-oauth-provider",
+    "message": "The provided OAuth provider is invalid."
+  },
+  {
+    "code": "auth/invalid-action-code",
+    "message": "The action code is invalid. The action code is malformed or expired."
+  },
+  {
+    "code": "auth/unauthorized-domain",
+    "message": "The domian is not authorized."
+  },
+  {
+    "code": "auth/wrong-password",
+    "message": "The password is invalid."
+  },
+  {
+    "code": "auth/invalid-persistence-type",
+    "message": "The specified persistence type is invalid."
+  },
+  {
+    "code": "auth/invalid-phone-number",
+    "message": "The phone number has an invalid format."
+  },
+  {
+    "code": "auth/invalid-provider-id",
+    "message": "The provider ID is invalid."
+  },
+  {
+    "code": "auth/invalid-recipient-email",
+    "message": "The recipient email is invalid."
+  },
+  {
+    "code": "auth/invalid-sender",
+    "message": "The sender is invalid."
+  },
+  {
+    "code": "auth/invalid-verification-id",
+    "message": "The verification ID is invalid."
+  },
+  {
+    "code": "auth/invalid-tenant-id",
+    "message": "The tenant ID is invalid."
+  },
+  {
+    "code": "auth/multi-factor-info-not-found",
+    "message": "Multi factor info not found."
+  },
+  {
+    "code": "auth/multi-factor-auth-required",
+    "message": "Multi factor auth required."
+  },
+  {
+    "code": "auth/missing-android-pkg-name",
+    "message": "An Android Package Name must be provided if the Android App is required."
+  },
+  {
+    "code": "auth/missing-app-credential",
+    "message": "The phone verification request is missing an application credential."
+  },
+  {
+    "code": "auth/auth-domain-config-required",
+    "message": "Authentication requires a domain to be specified."
+  },
+  {
+    "code": "auth/missing-verification-code",
+    "message": "The phone verification code is missing."
+  },
+  {
+    "code": "auth/missing-continue-uri",
+    "message": "The continue URL is missing."
+  },
+  {
+    "code": "auth/missing-iframe-start",
+    "message": "An internal error has occurred."
+  },
+  {
+    "code": "auth/missing-ios-bundle-id",
+    "message": "An iOS Bundle ID must be provided if the iOS App is required."
+  },
+  {
+    "code": "auth/missing-or-invalid-nonce",
+    "message": "The nonce is missing or invalid."
+  },
+  {
+    "code": "auth/missing-multi-factor-info",
+    "message": "Multi factor info is missing."
+  },
+  {
+    "code": "auth/missing-multi-factor-session",
+    "message": "Multi factor session is missing."
+  },
+  {
+    "code": "auth/missing-phone-number",
+    "message": "The phone number is missing."
+  },
+  {
+    "code": "auth/missing-verification-id",
+    "message": "The verification ID is missing."
+  },
+  {
+    "code": "auth/app-deleted",
+    "message": "The application has been deleted."
+  },
+  {
+    "code": "auth/account-exists-with-different-credential",
+    "message": "An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address."
+  },
+  {
+    "code": "auth/network-request-failed",
+    "message": "A network error (such as timeout, interrupted connection or unreachable host) has occurred."
+  },
+  {
+    "code": "auth/null-user",
+    "message": "null user"
+  },
+  {
+    "code": "auth/no-auth-event",
+    "message": "No auth event was associated with the user."
+  },
+  {
+    "code": "auth/no-such-provider",
+    "message": "The specified provider does not exist."
+  },
+  {
+    "code": "auth/operation-not-allowed",
+    "message": "Operation not allowed."
+  },
+  {
+    "code": "auth/operation-not-supported-in-this-environment",
+    "message": "This operation is not supported in the environment this application is running on."
+  },
+  {
+    "code": "auth/popup-blocked",
+    "message": "The popup was blocked by the browser."
+  },
+  {
+    "code": "auth/popup-closed-by-user",
+    "message": "The popup was closed by the user."
+  },
+  {
+    "code": "auth/provider-already-linked",
+    "message": "User can only be linked to one identity for the given provider."
+  },
+  {
+    "code": "auth/quota-exceeded",
+    "message": "The quota for this operation has been exceeded."
+  },
+  {
+    "code": "auth/redirect-cancelled-by-user",
+    "message": "The redirect operation has been cancelled by the user."
+  },
+  {
+    "code": "auth/redirect-operation-pending",
+    "message": "A redirect operation is already in progress."
+  },
+  {
+    "code": "auth/rejected-credential",
+    "message": "The request contains malformed or invalid authentication data."
+  },
+  {
+    "code": "auth/second-factor-already-in-use",
+    "message": "The second factor is already in use."
+  },
+  {
+    "code": "auth/maximum-second-factor-count-exceeded",
+    "message": "The maximum number of second factors allowed has been exceeded."
+  },
+  {
+    "code": "auth/tenant-id-mismatch",
+    "message": "The provided tenant ID does not match the Auth instance's tenant ID."
+  },
+  {
+    "code": "auth/timeout",
+    "message": "The operation has timed out."
+  },
+  {
+    "code": "auth/user-token-expired",
+    "message": "The user's credential has expired."
+  },
+  {
+    "code": "auth/too-many-requests",
+    "message": "Too many requests have been made with this user's credential."
+  },
+  {
+    "code": "auth/unauthorized-continue-uri",
+    "message": "The continue URL is not authorized."
+  },
+  {
+    "code": "auth/unsupported-first-factor",
+    "message": "The provided first factor is not supported."
+  },
+  {
+    "code": "auth/unsupported-persistence-type",
+    "message": "The specified persistence type is not supported."
+  },
+  {
+    "code": "auth/unsupported-tenant-operation",
+    "message": "This operation is not supported in a multi-tenant application."
+  },
+  {
+    "code": "auth/unverified-email",
+    "message": "The email address is not verified."
+  },
+  {
+    "code": "auth/user-cancelled",
+    "message": "The user has cancelled the operation."
+  },
+  {
+    "code": "auth/user-not-found",
+    "message": "User was not found."
+  },
+  {
+    "code": "auth/user-disabled",
+    "message": "The user account has been disabled by an administrator."
+  },
+  {
+    "code": "auth/user-mismatch",
+    "message": "The supplied credentials do not correspond to the previously signed in user."
+  },
+  {
+    "code": "auth/user-signed-out",
+    "message": "The user has signed out."
+  },
+  {
+    "code": "auth/weak-password",
+    "message": "The password is too weak."
+  },
+  {
+    "code": "auth/web-storage-unsupported",
+    "message": "This browser is not supported."
+  },
+  {
+    "code": "auth/already-initialized",
+    "message": "The Firebase app was already initialized."
+  }
+]
